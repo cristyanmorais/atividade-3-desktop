@@ -1,0 +1,28 @@
+create table pessoa(
+	id serial primary key,
+	nome VARCHAR,
+    idade INTEGER,
+    cpf VARCHAR,
+    rg VARCHAR,
+    data_nasc DATE,
+    sexo VARCHAR,
+    signo VARCHAR,
+    mae VARCHAR,
+    pai VARCHAR,
+    email VARCHAR,
+    senha VARCHAR,
+    cep VARCHAR,
+    endereco VARCHAR,
+    numero VARCHAR,
+    bairro VARCHAR,
+    cidade VARCHAR,
+    estado CHAR,
+    telefone_fixo VARCHAR,
+    celular VARCHAR,
+    altura DECIMAL,
+    peso DECIMAL,
+    tipo_sanguineo VARCHAR,
+    cor VARCHAR
+);
+
+select * from pessoa;
